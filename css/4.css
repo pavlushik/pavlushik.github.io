@@ -1,0 +1,100 @@
+body {
+  background-color: rgb(142, 139, 136);
+  font: 400 1em/1.38 Helvetica;
+  color: rgb(0, 0, 0);
+}
+
+.container {
+  width: 640px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.container .container {
+  height: 24px;
+  margin-top: -19px;
+}
+
+.element {
+  float: left;
+  background-size: cover;
+  background-position: center center;
+}
+
+.text {
+  color: rgb(0, 0, 0);
+}
+
+.container-1 {
+  height: 687px;
+  margin-top: 14px;
+}
+
+.element-1 {
+  clear: both;
+  width: 640px;
+  min-width: 400px;
+  max-width: 640px;
+  height: 362px;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 1px;
+  background-image: url('../images/Koenigsegg-Agera-2016%204.jpg');
+  background-repeat: no-repeat;
+  background-color: rgb(222, 222, 222);
+}
+
+.element-2 {
+  position: relative;
+  clear: both;
+  z-index: 3;
+  width: 86px;
+  height: 88px;
+  margin: -160px 0 0 42.1704099999%;
+  background-image: url('../images/%D0%B4%D0%BE%D0%BC.png');
+  background-repeat: no-repeat;
+}
+
+.element-3 {
+  position: relative;
+  clear: both;
+  z-index: 5;
+  width: 25.46875%;
+  height: 116px;
+  margin-top: 566px;
+  background-image: url('../images/%D0%A1%D1%82%D1%80%D0%B5%D0%BB%D0%BA%D0%B0%20%D0%B2%D0%BF%D1%80%D0%B0%D0%B2%D0%BE.png');
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.element-4 {
+  position: relative;
+  z-index: 6;
+  width: 24.4995117187%;
+  height: 111px;
+  margin: 578px 0 0 50.0293%;
+  background-image: url('../images/%D0%A1%D1%82%D1%80%D0%B5%D0%BB%D0%BA%D0%B0%20%D0%B2%D0%BF%D1%80%D0%B0%D0%B2%D0%BE.png');
+}
+
+.text-1 {
+  width: 640px;
+  min-height: 116px;
+  margin: 0 auto;
+  padding: 42px;
+  font-size: 1.313em;
+  font-weight: 700;
+  text-align: center;
+}
+
+.text-2 {
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 1;
+  width: 99.2248062015%;
+  min-height: 266px;
+  padding: 1px;
+  font-size: 1em;
+}

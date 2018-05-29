@@ -1,0 +1,123 @@
+body {
+  background-color: rgb(142, 139, 136);
+  font: 400 1em/1.38 Helvetica;
+  color: rgb(255, 0, 0);
+}
+
+.container-2 p {
+  margin-bottom: 1em;
+}
+
+.container {
+  width: 640px;
+  margin: 0 auto;
+}
+
+.element {
+  float: left;
+  width: 230px;
+  max-width: 230px;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 25px;
+  background-size: cover;
+  background-position: center center;
+  background-color: rgb(222, 222, 222);
+}
+
+.text {
+  float: left;
+}
+
+.container-1 {
+  height: 270px;
+}
+
+.container-2 {
+  height: 647px;
+}
+
+.element-1 {
+  position: relative;
+  z-index: 3;
+  min-width: 200px;
+  height: 123px;
+  margin: 22px 0 0 6.4917%;
+  background-image: url('../images/Bugatti-Chiron.jpg');
+}
+
+.element-2 {
+  position: relative;
+  z-index: 4;
+  min-width: 200px;
+  height: 123px;
+  margin: 22px 0 0 15%;
+  background-image: url('../images/Hennessey-Venom-GT-2016%202.jpg');
+}
+
+.element-3 {
+  clear: both;
+  min-width: 230px;
+  height: 133px;
+  margin: 40px 0 0 31.99707%;
+  background-image: url('../images/SSC-Tuatara%203.jpg');
+}
+
+.element-4 {
+  position: relative;
+  clear: both;
+  z-index: 6;
+  min-width: 200px;
+  height: 129px;
+  margin: 37px 0 0 6.4917%;
+  background-image: url('../images/Koenigsegg-Agera-2016%204.jpg');
+}
+
+.element-5 {
+  position: relative;
+  z-index: 7;
+  min-width: 200px;
+  height: 129px;
+  margin: 37px 0 0 15%;
+  background-image: url('../images/Bugatti-Veyron-Super-Sport%205.jpg');
+}
+
+.text-1 {
+  width: 640px;
+  min-height: 97px;
+  padding: 25px;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 6px;
+  box-shadow: 4px 2px 5px rgba(0, 0, 0, .5);
+  font-family: Georgia;
+  font-style: italic;
+  font-size: 1.438em;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.text-2 {
+  clear: both;
+  width: 640px;
+  min-height: 100px;
+  margin-top: 33px;
+  padding: 36px;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 6px;
+  box-shadow: 4px 2px 5px rgba(0, 0, 0, .5);
+  font-family: Georgia;
+  font-size: 1.625em;
+  font-weight: 700;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.text-3 {
+  clear: both;
+  width: 100%;
+  min-height: 78px;
+  margin-top: 85px;
+  padding: 12px;
+  background-color: rgba(0, 0, 0, 0.99);
+  font-size: 1em;
+  color: rgb(255, 0, 0);
+}

@@ -1,0 +1,100 @@
+body {
+  background-color: rgb(142, 139, 136);
+  font: 400 1em/1.38 Helvetica;
+  color: rgb(0, 0, 0);
+}
+
+.container .container {
+  position: relative;
+  float: left;
+  z-index: 3;
+  width: 20.9375%;
+  height: 64px;
+  margin: 176px 0 0 22.65625%;
+}
+
+.element {
+  float: left;
+  background-size: cover;
+}
+
+.text {
+  float: left;
+  width: 640px;
+  color: rgb(0, 0, 0);
+}
+
+.container-1 {
+  width: 640px;
+  height: 643px;
+  margin: 0 auto;
+}
+
+.element-1 {
+  clear: both;
+  width: 640px;
+  min-width: 400px;
+  max-width: 640px;
+  height: 289px;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 1px;
+  background-image: url('../images/Bugatti-Veyron-Super-Sport%205.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: rgb(222, 222, 222);
+}
+
+.element-2 {
+  position: relative;
+  clear: both;
+  z-index: 5;
+  width: 18.125%;
+  height: 86px;
+  margin-top: 154px;
+  background-image: url('../images/%D0%A1%D1%82%D1%80%D0%B5%D0%BB%D0%BA%D0%B0%20%D0%B2%D0%BF%D1%80%D0%B0%D0%B2%D0%BE.png');
+  background-position: center center;
+  background-color: rgba(255, 255, 255, 0);
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.element-3 {
+  position: relative;
+  z-index: 4;
+  width: 84px;
+  height: 86px;
+  margin: 154px 0 0 25.15625%;
+  background-image: url('../images/%D0%B4%D0%BE%D0%BC.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.element-4 {
+  position: relative;
+  clear: both;
+  z-index: 6;
+  width: 19.84375%;
+  height: 100px;
+  margin: -100px 0 0 80.15625%;
+  background-image: url('../images/%D0%A1%D1%82%D1%80%D0%B5%D0%BB%D0%BA%D0%B0%20%D0%B2%D0%BF%D1%80%D0%B0%D0%B2%D0%BE.png');
+  background-position: left top;
+  background-color: rgba(222, 222, 222, 0);
+}
+
+.text-1 {
+  min-height: 111px;
+  padding: 43px;
+  font-size: 1.313em;
+  font-weight: 700;
+  text-align: center;
+}
+
+.text-2 {
+  min-height: 208px;
+  margin: -157px 0 0 -377.61194%;
+  padding: 1px;
+  font-size: 1em;
+}
